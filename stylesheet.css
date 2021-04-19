@@ -1,0 +1,296 @@
+* {
+  box-sizing: border-box;
+}
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+body {
+  line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+  display:block;
+}
+
+nav ul {
+  list-style:none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content:'';
+  content:none;
+}
+
+a {
+  margin:0;
+  padding:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color:#ff9;
+  color:#000;
+  text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color:#ff9;
+  color:#000;
+  font-style:italic;
+  font-weight:bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom:1px dotted;
+  cursor:help;
+}
+
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display:block;
+  height:1px;
+  border:0;  
+  border-top:1px solid #cccccc;
+  margin:1em 0;
+  padding:0;
+}
+
+input, select {
+  vertical-align:middle;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+body{
+  font-family: "Helvetica Neue", Helvetica, Arial, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+  background-color: #f6f6f6;
+  color: #13191b;
+  line-height: 1.7;
+  font-size: 13px;
+}
+.main-wrpper{
+  background:url(img/41128410a1c9c552aff0f685c4bfab3c.jpg);
+  background-size: cover;
+  height:300px;
+}
+.container{
+  width:85%;
+  margin:0 auto;
+}
+.header-left{
+  float:left;
+}
+.header-right{
+  float:right;
+  padding-top:25px;
+}
+.header-right li{
+  float:left;
+  margin-right:40px;
+}
+.header-right li a{
+  color:white;
+  font-size:14px;
+  padding-bottom:7px;
+}
+.header-right li a:hover{
+  border-bottom:2px solid white;
+}
+.header-list{
+  padding-top:50px;
+}
+.about-wrapper{
+  padding:110px 0 80px 0;
+}
+.container2{
+  width:70%;
+  margin:0 auto;
+}
+.about{
+  text-align:center;
+}
+.heading{
+  font-size:30px;
+  padding-bottom:60px;
+}
+.about p{
+  text-align: left;
+  font-size:16px;
+  padding-top:50px;
+}
+.world-contact{
+  width:70%;
+  margin:0 auto;
+  background-color:white;
+  padding-top:30px;
+  display:flex;
+}
+.world-item{
+  width:40%;
+}
+.world-item img{
+  width:100%;
+}
+.world-textarea{
+  width:50%;
+  padding-left:30px;
+}
+.world-h2{
+  font-size:20px;
+  padding-bottom:20px;
+}
+.world-p{
+  font-size:16px;
+  padding-bottom:20px;
+}
+.world-textarea a{
+  float:right;
+}
+.btn{
+  display: inline-block;
+}
+.site{
+  border:1px solid black;
+  font-size:14px;
+  padding:10px 30px;
+  color:black;
+}
+.site:hover{
+  color:white;
+  background-color:black;
+}
+.back-wrapper{
+  padding:100px 0;
+  text-align:center;
+}
+.back{
+  border:1px solid black;
+  padding-left:20px;
+  padding-right:40px;
+  padding-top:10px;
+  padding-bottom:10px;
+  color:black;
+  font-size:16px;
+}
+.icon{
+  padding-right:10px;
+  width:15px;
+  height:15px;
+}
+.back:hover{
+  color:white;
+  background-color: black;
+}
+.btn-wrapper{
+  padding:40px 0;
+}
+.btn-contact{
+  text-align: center;
+}
+.btn1{
+   display:inline-block;
+   width:150px;
+   padding:15px 0;
+   margin-right:20px;
+}
+.facebook{
+  color: #4871a9;
+  border:1px solid  #4871a9;
+}
+.facebook:hover{
+  color:white;
+  background-color:#4871a9;
+}
+.twitter{
+  color:#70bdd3;
+  border:1px solid #70bdd3;
+}
+.twitter:hover{
+  color:white;
+  background-color:#70bdd3;
+}
+.bookmark{
+  color: #2f9bcd;
+   border:1px solid #2f9bcd;
+}
+.bookmark:hover{
+  color:white;
+  background-color:#2f9bcd;
+}
+.footer{
+  background-color:#939899;
+  padding:35px 0;
+  text-align:center;
+}
+.footer-list span a{
+  padding-right:42px;
+  color:white;
+  font-size:14px;
+}
+.footer-list span a:hover{
+  opacity:0.7;
+}
+footer{
+  background-color:#656c6e;
+  padding:35px 0;
+}
+.footer-item img{
+  cursor: pointer;
+}
+.footer-item img:hover{
+  opacity:0.7;
+}
+.footer-p{
+  text-align:right;
+}
+.footer-p p{
+  color:white;
+}

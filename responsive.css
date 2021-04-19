@@ -1,0 +1,15 @@
+@media only screen and (max-width: 640px){
+  .world-contact{
+    flex-wrap:wrap;
+  }
+  .world-item{
+    padding-bottom:15px;
+    width:100%;
+  }
+  .world-textarea{
+    width:100%;
+  }
+  .bookmark{
+    margin-top:20px;
+  }
+}
